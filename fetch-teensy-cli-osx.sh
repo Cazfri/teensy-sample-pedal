@@ -10,8 +10,17 @@ if ! brew leaves | grep -q libusb-compat; then
     exit 1
 fi
 
+# Clone source code
 mkdir .teensy-cli-source && cd .teensy-cli-source
-git clone https://github.com/PaulStoffregen/teensy_loader_cli.git .
+git clone https://github.com/jonbakke/teensy_loader_cli.git .
+
+# Modify Makefile to compile for OSX
+sed -i '' -e 's/OS ?= LINUX/#OS ?= LINUX/g' Makefile
+sed -i '' -e 's/#OS ?= MACOSX/OS ?= MACOSX/g' Makefile
+
+# Compile
 make
+
+# Move executable to outer directory
 mv teensy_loader_cli ..
 cd ..
