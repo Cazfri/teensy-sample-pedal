@@ -1,3 +1,5 @@
 # Teensy CLI
 .teensy-cli-source
 teensy_loader_cli
+
+.DS_Store
