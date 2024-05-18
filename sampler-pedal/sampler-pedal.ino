@@ -106,7 +106,7 @@ void setup() {
 void loop() {
   sampleController.update();
 
-  // Update sampleController 
+  // change sampleController state when switch is pressed
   if (playButton.update()) {
     if (playButton.fallingEdge()) {
       if (sampleController.sampleIsPlaying()) {
