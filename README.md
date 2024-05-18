@@ -12,7 +12,7 @@ Programmed using Teensyduino and the Arduino IDE. I'm not particularly a fan of 
 
 ## Wiring
 
-This code uses the following pins for its various components.
+In addition to the pins reserved for the [Teensy audio shield](https://www.pjrc.com/store/teensy3_audio.html), this code also uses the following pins for its various components.
 
 | Component | Pin |
 | -------- | ------- |
@@ -20,7 +20,6 @@ This code uses the following pins for its various components.
 | RGB LED red lead | 1 |
 | RGB LED green lead (currently unused) | 2 |
 | RGB LED blue lead (currently unused) | 3 |
-| Teensy audio shield SD port | 10 |
 
 ## Sample Files
 
