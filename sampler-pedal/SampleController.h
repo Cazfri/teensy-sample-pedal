@@ -19,8 +19,6 @@ public:
   void stopAndRewind();
 
 private:
-  // void loadSample(size_t);
-
   AudioAmplifier output_l, output_r;
   AudioPlaySdWav current_sample;
   AudioConnection sample_conn_l, sample_conn_r;
