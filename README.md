@@ -20,7 +20,7 @@ This code uses the following pins for its various components.
 | RGB LED red lead | 1 |
 | RGB LED green lead (currently unused) | 2 |
 | RGB LED blue lead (currently unused) | 3 |
-| Teensy Audio Shield connection | 10 |
+| Teensy audio shield SD port | 10 |
 
 ## Sample Files
 
