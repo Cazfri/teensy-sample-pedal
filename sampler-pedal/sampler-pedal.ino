@@ -7,7 +7,7 @@
 
 #include "SampleController.h"
 
-// pin definitions
+// Pin definitions
 #define FOOT_SWITCH_PIN 0
 
 #define LED_R_PIN 1
